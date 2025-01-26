@@ -109,7 +109,7 @@ def main():
             email_body = "New SEC filings detected:\n\n"
             for cik, filings in all_new_filings.items():
                 name = COMPANY_CIKS.get(cik, cik)
-                email_body += f"name:\n"
+                email_body += f"{name}:\n"
                 for filing in filings:
                     email_body += (f"- {filing['form']} filed on {filing['date']}\n"
                                    f"  URL: {filing['url']}\n")

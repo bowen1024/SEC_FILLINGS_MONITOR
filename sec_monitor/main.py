@@ -1,7 +1,7 @@
 # sec_monitor/main.py
 import logging
 from collections import defaultdict
-from config import config
+from sec_monitor.config import config
 from sec_monitor.s3_manager import S3Manager
 from sec_monitor.sec_client import fetch_filings
 from sec_monitor.email_client import send_notification

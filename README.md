@@ -12,16 +12,4 @@ A Python script that automatically monitors SEC filings for specified companies 
 - ⚙️ Fully configurable via environment variables
 - 🛠️ Error handling and retries
 
-## Prerequisites
 
-- GitHub account
-- AWS account (for S3)
-- Email service provider (Gmail, Outlook, etc.)
-- Python 3.10+
-
-## Setup
-
-### 1. Clone Repository
-```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>

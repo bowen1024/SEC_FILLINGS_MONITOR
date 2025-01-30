@@ -17,6 +17,7 @@ COMPANY_CIKS = {
     '0001546296': 'IPDN',
     '0001413745': 'ANTE',
     '0001527762': 'MFH',
+    '0001957413': 'CJET'
 }
 
 def process_company_filings(cik, state):

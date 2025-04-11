@@ -22,6 +22,7 @@ COMPANY_CIKS = {
     '0001996192': 'LSH',
     '0001954488': 'MENS',
     '0001711012': 'AIHS',
+    '0001592560': 'VSA',
 }
 
 def process_company_filings(cik, state):

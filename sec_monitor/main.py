@@ -13,9 +13,9 @@ IS_INITIAL_RUN = False
 
 # Company CIKs to monitor
 COMPANY_CIKS = {
-    '0001747661': 'ADD',
+    '0001747661': 'ZNB',
     '0001546296': 'IPDN',
-    '0001413745': 'ANTE',
+    '0001413745': 'YDKG',
     '0001527762': 'MFH',
     '0001957413': 'CJET',
     '0001769768': 'EJH',
@@ -23,6 +23,9 @@ COMPANY_CIKS = {
     '0001954488': 'MENS',
     '0001711012': 'AIHS',
     '0001592560': 'VSA',
+    '0001959994': 'COOT',
+    '0001975940': 'FLYE',
+    '0001178697': 'SONM'
 }
 
 def process_company_filings(cik, state):
